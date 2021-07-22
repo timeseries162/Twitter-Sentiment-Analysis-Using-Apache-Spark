@@ -1,1 +1,3 @@
 # Twitter-Sentiment-Analysis-Using-Apache-Spark
+
+In this empirical project, we perform sentiment analysis on Stanford’s Sentiment140 dataset. The dataset is fairly large and cannot be processed on a single machine. We build scalable machine learning models using Apache Spark and it’s DataFrame API and perform sentiment analysis on the dataset using different machine learning models. The models considered are – Elastic Net Logistic Classifier, Decision Tree Classifier, Random Forest Classifier and Gradient Boost Tree Classifier. Spark’s DataFrame based machine learning library, SparkML is used to build and evaluate these models. Further details of the implementation are provided in the paper. 
